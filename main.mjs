@@ -30,9 +30,9 @@ client.on('messageCreate', (message) => {
     if (message.author.bot) return;
     
     // 「ping」メッセージに反応
-    if (message.content.toLowerCase() === 'ping') {
-        message.reply('🏓 pong!');
-        console.log(`📝 ${message.author.tag} が ping コマンドを使用`);
+    if (message.content.toLowerCase() === 'おはようイナリ') {
+        message.reply('ホン！');
+        console.log(`📝 ${message.author.tag} が おはようイナリ コマンドを使用`);
     }
 });
 
