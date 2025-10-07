@@ -29,9 +29,9 @@ client.on('messageCreate', (message) => {
     // Bot自身のメッセージは無視
     if (message.author.bot) return;
     
-    // 「ping」メッセージに反応
+    // 「おはようイナリ」メッセージに反応
     if (message.content.toLowerCase() === 'おはようイナリ') {
-        message.reply('ホン！');
+        message.reply(':Inari: ポン！');
         console.log(`📝 ${message.author.tag} が おはようイナリ コマンドを使用`);
     }
 });
