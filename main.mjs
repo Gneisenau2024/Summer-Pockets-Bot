@@ -31,7 +31,7 @@ client.on('messageCreate', (message) => {
     
     // 「おはようイナリ」メッセージに反応
     if (message.content.toLowerCase() === 'おはようイナリ') {
-        message.reply(':Inari: ポン！');
+        message.reply(':Inari: ポンっ！');
         console.log(`📝 ${message.author.tag} が おはようイナリ コマンドを使用`);
     }
 });
